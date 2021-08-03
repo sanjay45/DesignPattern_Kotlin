@@ -1,10 +1,6 @@
 package com.designpattern.carpicker
 
-
-//In kotlin
-fun main() {
-    println("Hello World")
-}
+import com.designpattern.carpicker.vehicle.Vehicle
 
 
 //In java
@@ -14,6 +10,9 @@ class Main {
         @JvmStatic
         fun main(args: Array<String>) {
             println("Hello World")
+
+            val vehicle = Vehicle()
+            println("My car's price is = ${vehicle.price}")
         }
     }
 }
